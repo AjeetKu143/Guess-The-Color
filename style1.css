@@ -1,0 +1,103 @@
+/* Common styles remain the same */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  background-color: white;
+  padding: 45px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+#rgb-value {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+#mode-buttons {
+  margin-bottom: 20px;
+}
+
+.mode {
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.selected {
+  background-color: #0056b3;
+}
+
+.color-grid {
+  display: grid;
+  grid-gap: 10px;
+  margin-bottom: 30px;
+}
+
+/* Easy mode: 3 color boxes in a 1x3 layout */
+.color-grid.easy {
+  grid-template-columns: repeat(3, 100px);
+}
+
+/* Hard mode: 9 color boxes in a 3x3 matrix layout */
+.color-grid.hard {
+  grid-template-columns: repeat(3, 100px);
+}
+
+.color-box {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.color-box:hover {
+  transform: scale(1.1);
+}
+
+#reset-btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+#reset-btn:hover {
+  background-color: #0056b3;
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+#attempts {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  color: red;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guess The Color</title>
+  <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Guess The Color</h1>
+    <h2 id="rgb-value">RGB(?,?,?)</h2>
+
+    <!-- Mode selection -->
+    <div id="mode-buttons">
+      <button id="easy-btn" class="mode">Easy</button>
+      <button id="hard-btn" class="mode selected">Hard</button>
+    </div>
+
+    <!-- Color grid -->
+    <div class="color-grid" id="color-grid">
+      <!-- Color boxes will be dynamically added here -->
+    </div>
+
+    <!-- Game reset button -->
+    <button id="reset-btn">New Colors</button>
+
+    <!-- Result display -->
+    <p id="result"></p>
+
+    <!-- Remaining attempts for hard mode -->
+    <p id="attempts"></p>
+  </div>
+
+  <script src="script1.js"></script>
+</body>
+
+</html>
