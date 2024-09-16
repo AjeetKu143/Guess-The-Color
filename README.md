@@ -1,4 +1,7 @@
 # Guess The Color Game
+## Demo
+
+[![Demo](https://img.shields.io/badge/Demo-Weather%20App-blue)](https://ajeetku143.github.io/Guess-The-Color/)
 
 This is a simple "Guess The Color" game where the user is presented with multiple color boxes and needs to guess the correct color based on the RGB value displayed. The game offers two difficulty levels: **Easy** and **Hard**.
 
