@@ -1,5 +1,4 @@
 # Guess The Color Game
-## Demo
 
 [![Demo](https://img.shields.io/badge/Demo-Weather%20App-blue)](https://ajeetku143.github.io/Guess-The-Color/)
 
