@@ -31,4 +31,4 @@ This is a simple "Guess The Color" game where the user is presented with multipl
 
 1. Clone the repository to your local machine:
    ```bash
-   git clone [https://github.com/AjeetKu143/Guess-The-Color.git]
+   git clone https://github.com/AjeetKu143/Guess-The-Color.git
